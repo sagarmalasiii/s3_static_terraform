@@ -42,5 +42,6 @@ terraform apply
 ```
 
 7. Once applied, your website will be available at:
-http://<your-bucket-name>.s3-website-us-east-1.amazonaws.com
+ ```bash
+  http://<your-bucket-name>.s3-website-us-east-1.amazonaws.com
 
