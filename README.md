@@ -29,11 +29,18 @@ This repository contains Terraform code to provision and configure an AWS S3 buc
 
    ```bash
    terraform init
-4. Plan your changes
+   ```
+   
+4. **Plan Your Changes**
+ ```bash
  terraform plan
+```
 
-5.Apply the Terraform configuration
+ 5. **Apply the Terraform configuration**
+  ```bash
 terraform apply
-6. Once applied, your website will be available at:
+```
+
+7. Once applied, your website will be available at:
 http://<your-bucket-name>.s3-website-us-east-1.amazonaws.com
 
